@@ -11,202 +11,163 @@ echo '
     </div>
 
     <div class="option_wrapper_box">
-        <p class="title_4">Lorem ipsum dolor sit amet consectetur</p>
-        <div>
-            <div class="option_inline">
-                <div>
-                    <p class="title_4">Color 1: </p>
-                </div>
+        <table class="file_upload_table">
+            <tr>
+                <td>
+                    <p class="title_4">#</p>
+                </td>
+                <td>
+                    <p class="title_4">Lorem ipsum</p>
+                </td>
+                <td>
+                    <p class="title_4">Lorem ipsum</p>
+                </td>
+            </tr>
 
-                <div>
-                    <div class="wc_pefa_option_1_dropdown">
-                        <span class="wc_pefa_option_1_dropdown_title wc_pefa_option_2_dropdown_title dropdown_click">
-                            <span>AÑO</span>
-                            <svg width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000" stroke="#000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M15.233 19.175l0.754 0.754 6.035-6.035-0.754-0.754-5.281 5.281-5.256-5.256-0.754 0.754 3.013 3.013z" fill="#000"> </path> </g></svg>
-                        </span> 
-                        <ul class="wc_pefa_option_1_dropdown_list wc_pefa_option_1_dropdown_list_click">
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2023
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2024
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2025
-                                </label>
-                            </li>  
-                        </ul>
-                    </div>
-                </div>
+            <tr>
+                <td>
+                    <p class="title_4">1</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
 
-                <div>
-                    <div class="wc_pefa_option_1_dropdown">
-                        <span class="wc_pefa_option_1_dropdown_title wc_pefa_option_2_dropdown_title dropdown_click">
-                            <span>AÑO</span>
-                            <svg width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000" stroke="#000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M15.233 19.175l0.754 0.754 6.035-6.035-0.754-0.754-5.281 5.281-5.256-5.256-0.754 0.754 3.013 3.013z" fill="#000"> </path> </g></svg>
-                        </span> 
-                        <ul class="wc_pefa_option_1_dropdown_list wc_pefa_option_1_dropdown_list_click">
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2023
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2024
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2025
-                                </label>
-                            </li>  
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="option_inline">
-                <div>
-                    <p class="title_4">Color 1: </p>
-                </div>
+            <tr>
+                <td>
+                    <p class="title_4">2</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
 
-                <div>
-                    <div class="wc_pefa_option_1_dropdown">
-                        <span class="wc_pefa_option_1_dropdown_title wc_pefa_option_2_dropdown_title dropdown_click">
-                            <span>AÑO</span>
-                            <svg width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000" stroke="#000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M15.233 19.175l0.754 0.754 6.035-6.035-0.754-0.754-5.281 5.281-5.256-5.256-0.754 0.754 3.013 3.013z" fill="#000"> </path> </g></svg>
-                        </span> 
-                        <ul class="wc_pefa_option_1_dropdown_list wc_pefa_option_1_dropdown_list_click">
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2023
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2024
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2025
-                                </label>
-                            </li>  
-                        </ul>
-                    </div>
-                </div>
+            <tr>
+                <td>
+                    <p class="title_4">3</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
 
-                <div>
-                    <div class="wc_pefa_option_1_dropdown">
-                        <span class="wc_pefa_option_1_dropdown_title wc_pefa_option_2_dropdown_title dropdown_click">
-                            <span>AÑO</span>
-                            <svg width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000" stroke="#000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M15.233 19.175l0.754 0.754 6.035-6.035-0.754-0.754-5.281 5.281-5.256-5.256-0.754 0.754 3.013 3.013z" fill="#000"> </path> </g></svg>
-                        </span> 
-                        <ul class="wc_pefa_option_1_dropdown_list wc_pefa_option_1_dropdown_list_click">
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2023
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2024
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2025
-                                </label>
-                            </li>  
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="option_inline">
-                <div>
-                    <p class="title_4">Color 1: </p>
-                </div>
+            <tr>
+                <td>
+                    <p class="title_4">4</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
 
-                <div>
-                    <div class="wc_pefa_option_1_dropdown">
-                        <span class="wc_pefa_option_1_dropdown_title wc_pefa_option_2_dropdown_title dropdown_click">
-                            <span>AÑO</span>
-                            <svg width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000" stroke="#000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M15.233 19.175l0.754 0.754 6.035-6.035-0.754-0.754-5.281 5.281-5.256-5.256-0.754 0.754 3.013 3.013z" fill="#000"> </path> </g></svg>
-                        </span> 
-                        <ul class="wc_pefa_option_1_dropdown_list wc_pefa_option_1_dropdown_list_click">
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2023
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2024
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2025
-                                </label>
-                            </li>  
-                        </ul>
-                    </div>
-                </div>
+            <tr>
+                <td>
+                    <p class="title_4">5</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
 
-                <div>
-                    <div class="wc_pefa_option_1_dropdown">
-                        <span class="wc_pefa_option_1_dropdown_title wc_pefa_option_2_dropdown_title dropdown_click">
-                            <span>AÑO</span>
-                            <svg width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000" stroke="#000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M15.233 19.175l0.754 0.754 6.035-6.035-0.754-0.754-5.281 5.281-5.256-5.256-0.754 0.754 3.013 3.013z" fill="#000"> </path> </g></svg>
-                        </span> 
-                        <ul class="wc_pefa_option_1_dropdown_list wc_pefa_option_1_dropdown_list_click">
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2023
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2024
-                                </label>
-                            </li>  
-                            <li>
-                                <label>
-                                    <input type="radio" name="wc_pefa_year">
-                                    2025
-                                </label>
-                            </li>  
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <p class="title_4">Lorem ipsum dolor sit amet consectetur</p>
-            <textarea name="" class="text_block_1"></textarea>
-        </div>
+            <tr>
+                <td>
+                    <p class="title_4">6</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="title_4">7</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="title_4">8</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="title_4">9</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="title_4">10</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="title_4">11</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="title_4">12</p>
+                </td>
+                <td>
+                    <input type="text" name="" class="input_1">
+                </td>
+                <td>
+                    <input type="file" name="">
+                </td>
+            </tr>
+        </table>
     </div>
 </div>
 ';

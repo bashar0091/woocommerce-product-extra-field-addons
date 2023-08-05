@@ -30,8 +30,41 @@ function add_hello_world_text_before_add_to_cart_form() {
         require_once('partials/wc_pefa_option_section_3.php');
     echo '</div>';
 
+    require_once('partials/wc_pefa_option_bottom_1.php');
+    require_once('partials/wc_pefa_option_bottom_2.php');
     ?>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quisquam facilis facere itaque</p>
+
+    <div class="wc_pefa_total_price">
+        <div class="total_price_text">
+            Total Price
+        </div>
+        <div class="total_price_num">
+            <?php echo $product_price; ?>
+        </div>
+    </div>
     
+    <form class="wc_pefa_cart" action="" method="post" enctype="multipart/form-data">
+
+        <div class="mkdf-quantity-buttons quantity">
+            <label class="screen-reader-text" for="quantity_64cec24637363">Kit Gráfico Honda Nevula quantity</label>
+            <span class="mkdf-quantity-minus arrow_carrot-down"></span>
+            <input type="text" id="quantity_64cec24637363" class="mkdf-quantity-input input-text qty text" data-step="1"
+                data-min="1" data-max="" name="quantity" value="01" title="Qty" size="4" placeholder="" inputmode="numeric">
+            <span class="mkdf-quantity-plus arrow_carrot-up"></span>
+        </div>
+
+
+
+        <button type="submit" name="add-to-cart" value="3294" class="single_add_to_cart_button button alt mkdf-visible">
+            <span class="mkdf-btn-predefined-line-holder">
+                <span class="mkdf-btn-line-hidden"></span>
+                <span class="mkdf-btn-text">Add To Cart </span><span class="mkdf-btn-line"></span><i
+                    class="mkdf-icon-ion-icon ion-ios-play "></i>
+            </span>
+        </button>
+    </form>
 
     <?php
 }

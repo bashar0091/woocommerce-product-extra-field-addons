@@ -2,7 +2,8 @@ jQuery(document).ready(function($) {
 
     $('.entry-summary .mkdf-single-product-title').remove();
     $('.entry-summary .price').remove();
-    $('.woocommerce-product-details__short-description').remove();
+    $('.entry-summary .woocommerce-product-details__short-description').remove();
+    $('.entry-summary .cart').remove();
 
 
     // dropdown click open 
@@ -30,5 +31,18 @@ jQuery(document).ready(function($) {
     // option click 
     $('.option_wrapper_click').click(function() {
         $(this).toggleClass('active');
+    });
+
+    // condition list click 
+    $('.condition_list_click li label').click(function() {
+        var condition_get = $(this).find('input').val();
+
+        if(condition_get == 'yes'){
+            $('.option_wrapper_box_condition_2').removeClass('active');
+            $('.option_wrapper_box_condition').addClass('active');
+        } else {
+            $('.option_wrapper_box_condition').removeClass('active');
+            $('.option_wrapper_box_condition_2').addClass('active');
+        }
     });
 });
