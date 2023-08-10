@@ -18,6 +18,8 @@ function add_hello_world_text_before_add_to_cart_form() {
     $product_id = get_product_id_on_single_page();
     $product = wc_get_product($product_id);
 
+    echo '<form class="wc_pefa_cart" action="" method="post" enctype="multipart/form-data">';
+
     require_once('partials/wc_pefa_product_title.php');
     require_once('partials/wc_pefa_product_price.php');
     require_once('partials/wc_pefa_product_short_des.php');
@@ -32,20 +34,18 @@ function add_hello_world_text_before_add_to_cart_form() {
 
     require_once('partials/wc_pefa_option_bottom_1.php');
     require_once('partials/wc_pefa_option_bottom_2.php');
-    ?>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quisquam facilis facere itaque</p>
+        echo '
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quisquam facilis facere itaque</p>
 
-    <div class="wc_pefa_total_price">
-        <div class="total_price_text">
-            Total Price
+        <div class="wc_pefa_total_price">
+            <div class="total_price_text">
+                Total Price
+            </div>
+            <div class="total_price_num">'.$product_price.'</div>
         </div>
-        <div class="total_price_num">
-            <?php echo $product_price; ?>
-        </div>
-    </div>
-    
-    <form class="wc_pefa_cart" action="" method="post" enctype="multipart/form-data">
+        
+        <div></div>
 
         <div class="mkdf-quantity-buttons quantity">
             <label class="screen-reader-text" for="quantity_64cec24637363">Kit Gráfico Honda Nevula quantity</label>
@@ -57,15 +57,13 @@ function add_hello_world_text_before_add_to_cart_form() {
 
 
 
-        <button type="submit" name="add-to-cart" value="3294" class="single_add_to_cart_button button alt mkdf-visible">
+        <button type="submit" name="add-to-cart" value="'.$product_id.'" class="single_add_to_cart_button button  alt mkdf-visible">
             <span class="mkdf-btn-predefined-line-holder">
                 <span class="mkdf-btn-line-hidden"></span>
                 <span class="mkdf-btn-text">Add To Cart </span><span class="mkdf-btn-line"></span><i
                     class="mkdf-icon-ion-icon ion-ios-play "></i>
             </span>
         </button>
-    </form>
-
-    <?php
+    </form>';
 }
 add_action('woocommerce_before_add_to_cart_form', 'add_hello_world_text_before_add_to_cart_form',2);

@@ -28,6 +28,7 @@
 }
 .wc_pefa_option_1_section {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
     margin-top: 20px;
@@ -35,6 +36,7 @@
 .wc_pefa_option_1_dropdown {
     cursor: pointer;
     position: relative;
+    flex: 1;
 }
 .wc_pefa_option_1_dropdown_title {
     background: #999999;
@@ -98,12 +100,12 @@
 }
 .option_des {
     margin-top: 50px;
-    max-width: 400px;
 }
 .option_des_flex {
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: space-between;
 }
 .title_2 {
     font-size: 25px;
@@ -131,15 +133,21 @@
     display: flex;
     align-items: center;
     background: #ed1d24;
-    max-width: 314px;
     gap: 10px;
     cursor: pointer;
+}
+.option_wrapper input[type="checkbox"] {
+    position: absolute;
+    left: 100%;
+    visibility: hidden;
+    opacity: 0;
 }
 .title_3 {
     margin: 0;
     color: #fff;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: Rajdhani,sans-serif;
 }
 .check_box {
     width: 28px;
@@ -180,6 +188,9 @@
     gap: 15px;
     margin: 15px 0;
 }
+.option_inline .width_auto {
+    flex: 1;
+}
 .option_wrapper_box {
     background-color: #EEE;
     padding: 0 10px;
@@ -199,7 +210,6 @@
 }
 .wc_pefa_option_2_dropdown_title {
     padding: 5px 10px;
-    min-width: 145px;
     justify-content: space-between;
     font-size: 13px;
     border: solid 1px #AAA;
@@ -238,11 +248,8 @@
 .file_upload_table td {
     text-align: left;
 }
-.wc_pefa_option_2_dropdown {
-    max-width: 318px;
-}
 .condition_option_section {
-    margin-top: 10px;
+    margin-top: 35px;
 }
 .option_wrapper_box_condition_inner {
     max-width: 320px;
@@ -251,7 +258,7 @@
     margin-top: 15px;
 }
 .option_des_gap_low {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .wc_pefa_total_price {
     display: inline-flex;
@@ -273,11 +280,30 @@
     padding-right: 10px;
     font-weight: 400;
 }
+.wc_pefa_bradcrumb .col, 
+.wc_pefa_bradcrumb .col a {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: Ubuntu;
+}
+form.wc_pefa_cart {
+    max-width: 450px;
+}
+.file_upload_row {
+    display: grid;
+    grid-template-columns: 10% 40% 40%;
+    gap: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
 
 @media (max-width: 767px) {
-    .wc_pefa_option_1_section {
-        flex-direction: column;
-        align-items: start;
+    .file_upload_row {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        align-items: center;
+        border: 2px solid #ffffff;
+        margin: 10px 0;
     }
     .wc_pefa_option_1_dropdown {
         width: 100%;

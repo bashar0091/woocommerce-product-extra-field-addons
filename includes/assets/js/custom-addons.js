@@ -29,7 +29,7 @@ jQuery(document).ready(function($) {
     
 
     // option click 
-    $('.option_wrapper_click').click(function() {
+    $('.option_wrapper_click').on('change', function() {
         $(this).toggleClass('active');
     });
 
