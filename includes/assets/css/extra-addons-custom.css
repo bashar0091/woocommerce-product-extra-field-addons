@@ -296,6 +296,23 @@ form.wc_pefa_cart {
     margin-bottom: 10px;
     align-items: center;
 }
+.variation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-right: 50px;
+}
+.variation > * {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.variation > * {
+    border: 1px solid #e4e4e4;
+    padding: 10px !important;
+}
 
 @media (max-width: 767px) {
     .file_upload_row {

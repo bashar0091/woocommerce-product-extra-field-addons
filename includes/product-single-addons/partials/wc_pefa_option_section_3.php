@@ -30,10 +30,10 @@ echo '
                     <p class="title_4">1</p>
                 </div>
                 <div>
-                    <input type="text" name="" class="input_1">
+                    <input type="text" name="file_1_text" class="input_1">
                 </div>
                 <div>
-                    <input type="file" name="">
+                    <input type="file" name="file_1">
                 </div>
             </div>
 
@@ -42,10 +42,10 @@ echo '
                     <p class="title_4">2</p>
                 </div>
                 <div>
-                    <input type="text" name="" class="input_1">
+                    <input type="text" name="file_2_text" class="input_1">
                 </div>
                 <div>
-                    <input type="file" name="">
+                    <input type="file" name="file_2">
                 </div>
             </div>
 
@@ -54,10 +54,10 @@ echo '
                     <p class="title_4">3</p>
                 </div>
                 <div>
-                    <input type="text" name="" class="input_1">
+                    <input type="text" name="file_3_text" class="input_1">
                 </div>
                 <div>
-                    <input type="file" name="">
+                    <input type="file" name="file_3">
                 </div>
             </div>
 

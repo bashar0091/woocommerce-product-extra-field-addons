@@ -50,6 +50,7 @@ function add_hello_world_text_before_add_to_cart_form() {
         
         <div></div>
 
+
         <div class="mkdf-quantity-buttons quantity">
             <label class="screen-reader-text" for="quantity_64cec24637363">Kit Gráfico Honda Nevula quantity</label>
             <span class="mkdf-quantity-minus arrow_carrot-down"></span>
@@ -58,9 +59,9 @@ function add_hello_world_text_before_add_to_cart_form() {
             <span class="mkdf-quantity-plus arrow_carrot-up"></span>
         </div>
 
+        <input type="hidden" name="product_id" value="<?php echo $product_id; ?>">
 
-
-        <button type="submit" name="add-to-cart" value="'.$product_id.'" class="single_add_to_cart_button button  alt mkdf-visible">
+        <button type="submit" name="custom_cart" value="'.$product_id.'" class="single_add_to_cart_button button  alt mkdf-visible">
             <span class="mkdf-btn-predefined-line-holder">
                 <span class="mkdf-btn-line-hidden"></span>
                 <span class="mkdf-btn-text">Add To Cart </span><span class="mkdf-btn-line"></span><i
@@ -70,3 +71,5 @@ function add_hello_world_text_before_add_to_cart_form() {
     </form>';
 }
 add_action('woocommerce_before_add_to_cart_form', 'add_hello_world_text_before_add_to_cart_form',2);
+
+// Disable default add to cart action
