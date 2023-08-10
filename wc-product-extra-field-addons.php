@@ -43,3 +43,4 @@ add_action( 'wp_enqueue_scripts', 'wc_pefa_scripts' );
  */
 require_once plugin_dir_path( __FILE__ ) . 'includes/product-single-addons/product-single-addons.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/controllers/form-data-add-to-cart-controller.php';
+require_once plugin_dir_path( __FILE__ ) . 'admin/menu/wc-pefa-admin-menu.php';

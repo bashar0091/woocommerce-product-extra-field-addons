@@ -18,8 +18,11 @@ function add_hello_world_text_before_add_to_cart_form() {
     $product_id = get_product_id_on_single_page();
     $product = wc_get_product($product_id);
 
-    echo '<form class="wc_pefa_cart" action="" method="post" enctype="multipart/form-data">';
+    // show field data
 
+    $data = get_option( 'APF_Tabs', array() );
+
+    echo '<form class="wc_pefa_cart" action="" method="post" enctype="multipart/form-data">';
     require_once('partials/wc_pefa_product_title.php');
     require_once('partials/wc_pefa_product_price.php');
     require_once('partials/wc_pefa_product_short_des.php');
