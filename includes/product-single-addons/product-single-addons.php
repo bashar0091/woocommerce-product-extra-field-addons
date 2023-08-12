@@ -39,7 +39,7 @@ function add_hello_world_text_before_add_to_cart_form() {
     require_once('partials/wc_pefa_option_bottom_2.php');
 
         echo '
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quisquam facilis facere itaque</p>
+        <p>'.$data["settings_content"]["section_3_bottom_des"].'</p>
 
         <div class="wc_pefa_total_price">
             <div class="total_price_text">
