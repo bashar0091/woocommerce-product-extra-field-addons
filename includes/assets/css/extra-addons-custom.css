@@ -313,8 +313,32 @@ form.wc_pefa_cart {
     border: 1px solid #e4e4e4;
     padding: 10px !important;
 }
+.cart_button {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.single_add_to_cart_button {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+}
 
 @media (max-width: 767px) {
+    .mkdf-quantity-buttons.quantity{
+        margin-right: 20px !important;
+    }
+    .mkdf-container-inner {
+        padding: 0 10px;
+        width: 90%;
+    }
+    .single_add_to_cart_button {
+        margin-top: 0 !important;
+        padding: 12px 5px !important;
+    }
+    .mkdf-single-product-summary {
+        margin-top: 10px;
+    }
     .file_upload_row {
         grid-template-columns: 1fr;
         padding: 10px;
